@@ -14,10 +14,11 @@ body {
 }
 
 ::selection {
-    background: #eeb644;
-    color: #fff;
-    text-shadow: none
+    /*background: #eeb644;*/
+    color: #FFFFFF;
+    text-shadow: none;
 }
+
 
 hr {
     border: 0;
