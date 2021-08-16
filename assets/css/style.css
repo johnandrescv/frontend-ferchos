@@ -49,7 +49,7 @@ a {
 }
 
 ::selection {
-    /*background: #eeb644;*/
+    background: #000000;
     color: #FFFFFF;
     text-shadow: none;
 }
