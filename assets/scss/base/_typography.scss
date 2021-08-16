@@ -13,7 +13,7 @@ body {
 
 /* Remove text-shadow in selection highlight. */
 ::selection {
-  background: $brandColor;
+  /*background: $brandColor;/
   color: $white;
   text-shadow: none;
 }
