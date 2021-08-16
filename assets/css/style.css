@@ -1376,7 +1376,7 @@ only screen and (min-width: 992px) and (max-width: 1199.98px) {
 23. Footer Style CSS
 ===========================*/
 .footer-area .footer-widget-area {
-    background-color: #1b1b1c;
+    background-color: #A30000;
     padding: 100px 0;
     color: #d8d8d8;
 }
@@ -1394,13 +1394,21 @@ only screen and (min-width: 992px) and (max-width: 1199.98px) {
 }
 
 .footer-area .footer-copyright-area {
-    background-color: #000000;
+    background-color: #003D87;
     color: #d8d8d8;
     padding: 20px 0;
 }
 
 .widget-item {
     margin-top: 38px;
+}
+
+.text-principal-color {
+    color: #003D87 !important;
+}
+
+.text-secondary-color {
+    color: #A30000 !important;
 }
 
 .widget-item .widget-title {

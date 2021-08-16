@@ -67,11 +67,11 @@
                 <div class="col-lg-8 d-none d-lg-block">
                     <div class="site-navigation">
                         <ul class="main-menu nav">
-                            <li><a onclick="goSection('inicio')">Inicio</a></li>
-                            <li><a onclick="goSection('nosotros')">Nosotros</a></li>
-                            <li><a onclick="goSection('productos')">Productos</a></li>
-                            <li><a onclick="goSection('mas')">Más Vendidos</a></li>
-                            <li><a onclick="goSection('contacto')">Contáctanos</a></li>
+                            <li><a class="text-principal-color" onclick="goSection('inicio')">Inicio</a></li>
+                            <li><a class="text-principal-color" onclick="goSection('nosotros')">Nosotros</a></li>
+                            <li><a class="text-principal-color" onclick="goSection('productos')">Productos</a></li>
+                            <li><a class="text-principal-color" onclick="goSection('mas')">Más Vendidos</a></li>
+                            <li><a class="text-principal-color" onclick="goSection('contacto')">Contáctanos</a></li>
                         </ul>
                     </div>
                 </div>
@@ -79,13 +79,13 @@
                 <div class="col-lg-2 col-sm-8">
                     <div class="site-action d-flex justify-content-center justify-content-sm-end align-items-center">
                         <div class="mini-cart-wrap" style="margin: 0px">
-                            <a href="https://facebook.com/importmuentes/" target="_blank" class="btn-mini-cart">
+                            <a href="https://facebook.com/importmuentes/" target="_blank" class="btn-mini-cart text-secondary-color">
                                 <i class="ion-social-facebook"></i>
                             </a>
                         </div>
                         <div class="mini-cart-wrap" style="margin: 0px 15px">
                             <a href="https://www.instagram.com/lacasadelcarreton_ec/" target="_blank"
-                                class="btn-mini-cart">
+                                class="btn-mini-cart text-secondary-color">
                                 <i class="ion-social-instagram"></i>
                             </a>
                         </div>
@@ -116,7 +116,6 @@
                                         href="https://wa.me/593998915206"><i class="fa fa-whatsapp"></i> Escríbenos</a>
                                     <a class="btn btn-white" target="_blank" href="catologo.pdf">Descarga nuestro
                                         catálogo</a>
-                                    <img class="mt-5 mb-5" src="assets/img/logos.png">
                                 </div>
                             </div>
                         </div>
@@ -135,7 +134,6 @@
                                         href="https://wa.me/593998915206"><i class="fa fa-whatsapp"></i> Escríbenos</a>
                                     <a class="btn btn-white" target="_blank" href="catologo.pdf">Descarga nuestro
                                         catálogo</a>
-                                    <img class="mt-5 mb-5" src="assets/img/logos.png">
                                 </div>
                             </div>
                         </div>
@@ -154,7 +152,6 @@
                                         href="https://wa.me/593998915206"><i class="fa fa-whatsapp"></i> Escríbenos</a>
                                     <a class="btn btn-white" target="_blank" href="catologo.pdf">Descarga nuestro
                                         catálogo</a>
-                                    <img class="mt-5 mb-5" src="assets/img/logos.png">
                                 </div>
                             </div>
                         </div>
@@ -635,7 +632,7 @@
             sessionStorage.setItem('tab', tabID);
         });
 
-        
+
         const contactForm = () => {
             const flagEmail = validateEmail($('#correo').val());
             const phonePattern = /\d{3}\d{3}\d{4}/;
