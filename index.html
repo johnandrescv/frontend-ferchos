@@ -501,10 +501,6 @@
     </div>
     <!--== End Newsletter Area ==-->
 
-    <!--== Mapa Area ==-->
-    <div id="map"></div>
-    <!--== Mapa Area ==-->
-
     <!--== Start Footer Area Wrapper ==-->
     <footer class="footer-area">
         <div class="footer-widget-area">
@@ -639,14 +635,7 @@
             sessionStorage.setItem('tab', tabID);
         });
 
-        function initMap() {
-            var uluru = { lat: -2.200790, lng: -79.899716 };
-            var map = new google.maps.Map(
-                document.getElementById('map'), { zoom: 18, center: uluru });
-            var marker = new google.maps.Marker({ position: uluru, map: map });
-            marker.setIcon('./assets/img/marker.png');
-        }
-
+        
         const contactForm = () => {
             const flagEmail = validateEmail($('#correo').val());
             const phonePattern = /\d{3}\d{3}\d{4}/;
@@ -698,8 +687,6 @@
             $('#tab-' + firstTab).addClass('active').siblings().removeClass('active');
         }
     </script>
-    <script defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtF5T5e4HZ4VoyGLt1MN5WGEv-jPWuUEk&callback=initMap"></script>
 </body>
 
 </html>
