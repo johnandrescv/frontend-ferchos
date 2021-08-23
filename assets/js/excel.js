@@ -12,7 +12,7 @@ $.get("./assets/php/listado.php", (data) => {
             <h4 class="title text-center">
                 <a href="detail.html?id=${item.id}">${item.nombre}</a>
             </h4>
-            <div class="row" style="margin-top: 10px; margin-bottom: 10px;">
+            <div class="row" style="margin-top: 20px;">
                 <div class="col-8">
                     <div class="ratting">
                         <span><i class="ion-android-star"></i></span>
@@ -39,7 +39,7 @@ $.get("./assets/php/listado.php", (data) => {
             <h4 class="title text-center">
                 <a href="detail.html?id=${item.id}">${item.nombre}</a>
             </h4>
-            <div class="row align-items-center" style="margin-top: 10px; margin-bottom: 10px;">
+            <div class="row align-items-center" style="margin-top: 20px;">
                 <div class="col-8">
                     <div class="ratting">
                         <span><i class="ion-android-star"></i></span>
