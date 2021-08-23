@@ -39,7 +39,7 @@ $.get("./assets/php/listado.php", (data) => {
             <h4 class="title text-center">
                 <a href="detail.html?id=${item.id}">${item.nombre}</a>
             </h4>
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-8">
                     <div class="ratting">
                         <span><i class="ion-android-star"></i></span>
