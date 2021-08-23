@@ -13,7 +13,7 @@ $.get("./assets/php/listado.php", (data) => {
                 <a href="detail.html?id=${item.id}">${item.nombre}</a>
             </h4>
             <div class="row">
-                <div class="col">
+                <div class="col-8">
                     <div class="ratting">
                         <span><i class="ion-android-star"></i></span>
                         <span><i class="ion-android-star"></i></span>
@@ -22,7 +22,7 @@ $.get("./assets/php/listado.php", (data) => {
                         <span><i class="ion-android-star-half"></i></span>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-4">
                     <a href="detail.html?id=${item.id}"><button class="btn-add-to-cart"><i class="ion-eye"></i></button></a>
                 </div>
             </div>
@@ -40,7 +40,7 @@ $.get("./assets/php/listado.php", (data) => {
                 <a href="detail.html?id=${item.id}">${item.nombre}</a>
             </h4>
             <div class="row">
-                <div class="col">
+                <div class="col-8">
                     <div class="ratting">
                         <span><i class="ion-android-star"></i></span>
                         <span><i class="ion-android-star"></i></span>
@@ -49,7 +49,7 @@ $.get("./assets/php/listado.php", (data) => {
                         <span><i class="ion-android-star-half"></i></span>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-4">
                     <a href="detail.html?id=${item.id}"><button class="btn-add-to-cart"><i class="ion-eye"></i></button></a>
                 </div>
             </div>
