@@ -10,9 +10,9 @@ require_once "Classes/PHPExcel.php";
         for ($row = 1; $row <= $lastRow; $row++) {
              $data[] = [
                 'id' => $worksheet->getCell('A'.$row)->getValue(),
-                'nombre' => $worksheet->getCell('B'.$row)->getValue(),
+                'nombre' => (!is_null($worksheet->getCell('B'.$row)->getValue())) ? $worksheet->getCell('B'.$row)->getValue() : "",
                 'categoria' => $worksheet->getCell('C'.$row)->getValue(),
-                'descripcion' => $worksheet->getCell('D'.$row)->getValue(),
+                'descripcion' => (!is_null($worksheet->getCell('D'.$row)->getValue())) ? $worksheet->getCell('D'.$row)->getValue() : "",
                 'fav' => intval($worksheet->getCell('E'.$row)->getValue()),
              ];
         }
