@@ -19,7 +19,7 @@ $.get("./assets/php/listado.php", (data) => {
                         <span><i class="ion-android-star"></i></span>
                         <span><i class="ion-android-star"></i></span>
                         <span><i class="ion-android-star"></i></span>
-                        <span><i class="ion-android-star-half"></i></span>
+                        <span><i class="ion-android-star"></i></span>
                     </div>
                 </div>
                 <div class="col-4">
@@ -46,7 +46,7 @@ $.get("./assets/php/listado.php", (data) => {
                         <span><i class="ion-android-star"></i></span>
                         <span><i class="ion-android-star"></i></span>
                         <span><i class="ion-android-star"></i></span>
-                        <span><i class="ion-android-star-half"></i></span>
+                        <span><i class="ion-android-star"></i></span>
                     </div>
                 </div>
                 <div class="col-4">
