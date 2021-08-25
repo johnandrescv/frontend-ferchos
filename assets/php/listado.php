@@ -12,7 +12,7 @@ require_once "Classes/PHPExcel.php";
                 'id' => $worksheet->getCell('A'.$row)->getValue(),
                 'nombre' => (!is_null($worksheet->getCell('B'.$row)->getValue())) ? $worksheet->getCell('B'.$row)->getValue() : "Producto",
                 'categoria' => $worksheet->getCell('C'.$row)->getValue(),
-                'descripcion' => (!is_null($worksheet->getCell('D'.$row)->getValue())) ? $worksheet->getCell('D'.$row)->getValue() : "",
+                'descripcion' => (!is_null($worksheet->getCell('D'.$row)->getValue())) ? $worksheet->getCell('D'.$row)->getValue() : "Descripción",
                 'fav' => intval($worksheet->getCell('E'.$row)->getValue()),
              ];
         }
