@@ -358,9 +358,6 @@
                           <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                             <tr>
                               <td>
-                                <a title="imagen" href="https://lacasadelcarreton.com">
-                                  <img style="margin-bottom: 5px;" src="https://lacasadelcarreton.com/assets/php/banner.jpg" alt="imagen" />
-                                </a>
                                 <p>Hola,</p>
                                 <p>Un cliente se ha contactado desde la página web con los siguientes datos:</p>
                                 <p>Nombre: '.$nombre.'</p>
@@ -389,15 +386,15 @@
         $mail->SMTPDebug = 0;                                 // Enable verbose debug output
         $mail->Host = 'smtp.gmail.com';                              // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                                // Enable SMTP authentication
-        $mail->Username = 'lacasadelcarretonecuador@gmail.com';                   // SMTP username
+        $mail->Username = 'ferchoscompudatoaras@gmail.com';                   // SMTP username
         $mail->Password = 'lacasadelcarreton2020';                             // SMTP password
         $mail->SMTPSecure = 'tls';                              // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587;                                      // TCP port to connect to
         $mail->IsHTML(true);
-        $mail->From = 'webpage@lacasadelcarreton.com';
+        $mail->From = 'webpage@ferchoscomputadoras.com';
         $mail->FromName = utf8_decode('La Casa del Carreton');
-        $mail->AddAddress('importmuentes@gmail.com');
-        $mail->AddAddress('ventas@importmuentes.com');
+        $mail->AddAddress('ferchoscompudatoaras@gmail.com');
+        $mail->AddAddress('ferchoscompudatoaras@importmuentes.com');
         $mail->Subject = utf8_decode('Nuevo Cliente Interesado desde la Página Web');
         $mail->Body = $body;
         $mail->send();
